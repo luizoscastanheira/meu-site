@@ -1,6 +1,10 @@
 import localFont from "next/font/local";
 import "./globals.css";
 
+// Importando componentes
+import Topo from "@/componentes/Topo";
+import Rodape from "@/componentes/Rodape";
+
 
 
 export const metadata = {
@@ -12,7 +16,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="pt-BR">
       <body>
+        <Topo />
         {children}
+        <Rodape />
       </body>
     </html>
   );
