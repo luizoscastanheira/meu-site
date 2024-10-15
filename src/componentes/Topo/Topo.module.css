@@ -1,0 +1,30 @@
+/* Estilizando o Topo */
+
+.container_header{
+    width:100%;
+    height: 100px;
+    border: solid 1px red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container_topo{
+    width: 80%;
+    height: 80%;
+    border: solid 1px blue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container_topo button{
+    width:50px;
+    height: 50px;
+}
+
+
+.menu{
+    display:none;
+    position: absolute;
+}
