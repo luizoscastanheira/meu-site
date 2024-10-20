@@ -1,19 +1,30 @@
 .nav_container{
     width: 300px;
-    height: 100vh;
-    border-right: solid 5px black;
-    border-radius: 50px;
+    border-bottom-right-radius: 25px;
      /* Mudar o position  para absolute heim!*/
+     position: absolute;
+     background-color: var(--primary-color);
+     box-shadow: 2px 2px 5px;
+     
 }
 
 .menu{
     font-size: 24px;
     padding: 5px;
     border-radius: 25px;
+    
 }
 
 .lista{
     list-style-type: none;
     padding: 10px;
     margin: 20px;
+}
+.lista a{
+    color:var(--text-color);
+    text-decoration: none;
+}
+.lista:hover{
+    background-color: var(--secundary-color);
+    
 }
