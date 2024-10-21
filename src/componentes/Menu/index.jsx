@@ -9,8 +9,8 @@ export default function Menu(){
                 <li className={estilos.lista}><a href="#">Conheça-me</a></li>
                 <li className={estilos.lista}><a href="#">Competências</a></li>
                 <li className={estilos.lista}><a href="#">Projetos</a></li>
-                <li className={estilos.lista}><a href="#">LinkedIn</a></li>
-                <li className={estilos.lista}><a href="#">GitHub</a></li>
+                <li className={estilos.lista}><a href="https://luizotavioads.vercel.app/">LinkedIn</a></li>
+                <li className={estilos.lista}><a href="https://github.com/luizoscastanheira">GitHub</a></li>
                 <li className={estilos.lista}><a href="#sobre">Sobre...</a></li>
             </ul>
         </nav>

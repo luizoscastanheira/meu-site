@@ -57,7 +57,9 @@ function toggleMenu(){
       
     </main>
     <section id={estilos.secao_competencias}>
-     
+      <div className={estilos.card_container}>
+
+      </div>
     </section>
 
   </>
