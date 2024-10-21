@@ -1,0 +1,19 @@
+/* Estilizando o Rodapé */
+#footer_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    padding: 10px;
+}
+
+
+#container_contato{
+    font-size: 18px;
+    padding: 15px;
+}
+
+#icon_contato{
+    font-size: 100px;
+    vertical-align: bottom;
+}

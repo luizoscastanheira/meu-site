@@ -26,5 +26,10 @@
 }
 .lista:hover{
     background-color: var(--secundary-color);
-    
+}
+
+.icons{
+    font-size: 30px;
+    vertical-align: bottom;
+    color: black;
 }
