@@ -11,8 +11,10 @@ import Menu from "@/componentes/Menu";
 import Rodape from "@/componentes/Rodape";
 import Card from "@/componentes/Card";
 
+// Importando icones
 import { TiThMenu, TiThMenuOutline } from "react-icons/ti";
 
+// Importando imagens
 import ImgSecao from "../../public/computadorcopy.jpg";
 
 export default function Home() {
@@ -21,7 +23,6 @@ export default function Home() {
   window.onload = function() {
     alert('Bem-vindo à minha página! Tenha paciência pois está em contrução!');
 };
-
 
 // Criando a variavel de estado
 const [menuVisivel, setMenuVisivel] = useState(false);
@@ -78,6 +79,10 @@ function toggleMenu(){
         <Card 
           nome={'CSS'}
           texto={'Cerficado em CSS - Folhas de Estilo'}
+        />
+        <Card 
+          nome={'JavaScript'}
+          texto={'Cerficado em JavaScript'}
         />
       </div>
     </section>
