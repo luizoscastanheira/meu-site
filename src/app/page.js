@@ -19,11 +19,6 @@ import ImgSecao from "../../public/computadorcopy.jpg";
 
 export default function Home() {
 
-// criando um alert na página ao carregar
-  window.onload = function() {
-    alert('Bem-vindo à minha página! Tenha paciência pois está em contrução!');
-};
-
 // Criando a variavel de estado
 const [menuVisivel, setMenuVisivel] = useState(false);
 
