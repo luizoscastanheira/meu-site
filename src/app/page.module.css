@@ -31,10 +31,10 @@
     font-size: 40px;
 }
 
-
 /* Estilizando a seção principal*/
 .main_container{
-    margin-top: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -60,15 +60,17 @@
 }
 
 /* Estilizando a Seção Competências */
-#secao_competencias{
+.secao_competencias{
     width: 100%;
-    height:100vh;
+    height:auto;
     background-color: #066BE4;
+    padding: 20px;
 }
 
 .card_container{
     display: flex;
-    gap: 15px;
+    flex-wrap: wrap;
+    gap: 25px;
     justify-content: center;
     padding: 15px;
 }

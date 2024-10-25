@@ -11,11 +11,12 @@ export default function Rodape(){
             <FcFaq id={estilos.icon_contato} />
             <div id={estilos.container_contato}>
             <h4>Luiz Otávio da Silva Castanheira</h4>
-            <div>
+            <div id="contato">
                 <p>E-mail: thelosc@proton.me</p>
                 <p>WhatsApp: 24 981839564</p>
             </div>
             </div>
         </footer>
+        
     );
 }

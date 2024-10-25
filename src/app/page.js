@@ -2,7 +2,7 @@
  * Página principal da aplicação
  */
 
-//Importações
+// Importações
 'use client';
 import {useState} from "react";
 import Image from "next/image";
@@ -16,16 +16,19 @@ import { TiThMenu, TiThMenuOutline } from "react-icons/ti";
 
 // Importando imagens
 import ImgSecao from "../../public/computadorcopy.jpg";
+import img_html5 from "../../public/html5.png";
+import img_css from "../../public/css.png";
+import img_js from "../../public/js.png";
+import img_node from "../../public/nodejs.png";
 
 export default function Home() {
-
 // Criando a variavel de estado
 const [menuVisivel, setMenuVisivel] = useState(false);
 
-// criando uma funçao para ativiar/destivar o menu
+// criando uma funçao para ativar/desativar o menu
 function toggleMenu(){
   setMenuVisivel(!menuVisivel);
-  console.log(menuVisivel)
+  //console.log(' Teste', menuVisivel)
 }
 
   return(
@@ -40,6 +43,7 @@ function toggleMenu(){
         </div>
         
     </header>
+
       {menuVisivel && <Menu />}
 
     <main className={estilos.main_container}>
@@ -65,23 +69,34 @@ function toggleMenu(){
       
     </main>
 
-    <section id={estilos.secao_competencias}>
+    <section className={estilos.secao_competencias} id="qualificacoes">
+      
       <div className={estilos.card_container}>
         <Card 
-          nome={'HTML'}
-          texto={'Certificado em HTML'}
+          imagem = {img_html5}
+          nome = {'HTML'}
+          texto = {'Certificado em HTML'}
         />
-        <Card 
+        <Card
+          imagem = {img_css} 
           nome={'CSS'}
           texto={'Cerficado em CSS - Folhas de Estilo'}
         />
-        <Card 
+        <Card
+          imagem = {img_js} 
           nome={'JavaScript'}
           texto={'Cerficado em JavaScript'}
         />
+        <Card
+          imagem = {img_node}
+          nome = {'Node JS'} 
+          texto = {'Certificado em Node.'}
+        />
+                      
       </div>
+      
     </section>
-
+    
     <Rodape />
   </>
   
