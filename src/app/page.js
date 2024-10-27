@@ -61,8 +61,9 @@ export default function Home() {
     
     <main className={estilos.main_container}>
       <h1>Analista de Sistemas e Programador Front-End</h1>
-      <p>Bem-vindo à minha página pessoal, espero que aprecie o conteúdo e conheça
-        uma pouco mais sobre.
+      <p>Bem-vindo à minha página pessoa! Aqui vamos nos conhecer umn pouco mais.</p>
+      <p>
+      "Nem os mais sábios pode ver o quadro todo." - Gandalf.
       </p>
       <Image src={ImgSecao} alt="Imagem da Sec" className={estilos.img_secao}/>
       
