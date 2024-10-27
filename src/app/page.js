@@ -63,7 +63,7 @@ export default function Home() {
       <h1>Analista de Sistemas e Programador Front-End</h1>
       <p>Bem-vindo à minha página pessoa! Aqui vamos nos conhecer umn pouco mais.</p>
       <p>
-      "Nem os mais sábios pode ver o quadro todo." - Gandalf.
+      "Nem os mais sábios podem ver o quadro todo." - Gandalf.
       </p>
       <Image src={ImgSecao} alt="Imagem da Sec" className={estilos.img_secao}/>
       
