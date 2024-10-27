@@ -10,8 +10,10 @@
 /* Definindo variáveis para cores */
 :root {
     --backgound-color:#34495e;
+    --background-secundary-color:#000f1f;
     --primary-color:#3498db;
     --secundary-color:#2980b9;
     --text-color:#ecf0f1;
     --text-secundary-color:#000f1f;
 }
+

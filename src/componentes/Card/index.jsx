@@ -7,7 +7,7 @@ import Image from "next/image";
 export default function Card(props){
     return(
         <div className={estilos.card}>
-            <Image src={props.imagem}/>
+            <Image src={props.imagem} alt={props.nome}/>
             <h2>{props.nome}</h2>
             <p>{props.texto}</p>
         </div>

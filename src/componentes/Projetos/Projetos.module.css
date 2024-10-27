@@ -1,0 +1,21 @@
+.secao_projetos{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+    height:auto;
+    background-color: var(--secundary-color);
+}
+
+.card_container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.titulo_secao{
+    color: var(--text-color);
+    text-align: center;
+    padding: 20px;
+}
