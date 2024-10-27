@@ -10,7 +10,7 @@ import Clinica from "../../../public/siteClinica300px.png";
 export default function Projetos(){
     return(
         <section className={estilos.secao_projetos} id="projetos">
-            <h2 className={estilos.titulo_secao}>Alguns dos meus projetos.</h2>
+            <h2 className={estilos.titulo_secao}>Alguns dos meus projetos - ainda em construção!!!</h2>
         <div className={estilos.card_container}>
            
                 <Card 

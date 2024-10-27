@@ -61,9 +61,9 @@ export default function Home() {
     
     <main className={estilos.main_container}>
       <h1>Analista de Sistemas e Programador Front-End</h1>
-      <p>Bem-vindo à minha página pessoa! Aqui vamos nos conhecer umn pouco mais.</p>
+      <p>Bem-vindo à minha página pessoal! Aqui vamos nos conhecer um pouco mais.</p>
       <p>
-      "Nem os mais sábios podem ver o quadro todo." - Gandalf.
+      "Não se apresse em julgar, nem os mais sábios podem ver o quadro todo." - Gandalf.
       </p>
       <Image src={ImgSecao} alt="Imagem da Sec" className={estilos.img_secao}/>
       
@@ -81,7 +81,7 @@ export default function Home() {
         <Card
           imagem = {img_css} 
           nome={'CSS'}
-          texto={'Cerficado em CSS - Folhas de Estilo'}
+          texto={'Certificado em CSS - Folhas de Estilo'}
         />
         <Card
           imagem = {img_js} 
