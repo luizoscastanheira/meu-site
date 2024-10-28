@@ -14,8 +14,18 @@
     padding: 20px;
 }
 
+.card_container a{
+    text-decoration: none;
+    color: var(--text-secundary-color);
+}
+
+.card_container a:hover{
+    text-shadow: 2px 2px 4px black;
+}
+
 .titulo_secao{
     color: var(--text-color);
     text-align: center;
     padding: 20px;
+    text-shadow: 3px 3px 5px black;
 }

@@ -3,7 +3,7 @@
 .container_header{
     width:100%;
     height: 150px;
-    background-color: var(--backgound-color);
+    background-color: var(--secundary-color);
     color:var(--text-color);
     display: flex;
     flex-direction: column;
@@ -26,6 +26,7 @@
 .container_topo h1{
     font-size: 40px;
     color:var(--text-secundary-color);
+    text-shadow: 2px 2px 4px var(--secundary-color);
 }
 
 .icons_topo{
@@ -40,18 +41,29 @@
     justify-content: center;
     align-items: center;
     list-style-type: none;
-    font-size: 18px;
+    font-size: 20px;
+}
+
+.menu_item{
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    align-content: center;
+    border-radius: 5px;
 }
 
 .menu_link{
     text-decoration: none;
     color: var(--text-color);
+    width: 150px;
+    height: 30px;
 }
 
 .menu_link:hover{
-    font-size: 24px;
     font-weight: bold;
+    text-shadow: 2px 2px 4px black;
 }
+
 
 /* Estilizando a seção principal*/
 .main_container{
@@ -67,13 +79,14 @@
 
 .main_container h1 {
     padding: 10px;
-    font-size: 50px;
+    font-size: 40px;
+    text-shadow: 3px 3px 5px gray;
 }
 
 .main_container p{
     max-width: 1024px;
     padding: 10px;
-    font-size: 20px;;
+    font-size: 20px;
 }
 
 .img_secao{
@@ -119,6 +132,9 @@
     padding: 10px;
 }
 
+.secao_sobre h2{
+    text-shadow: 3px 3px 5px gray;
+}
 
 .secao_sobre p {
     max-width: 1024px;
