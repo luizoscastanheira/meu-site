@@ -83,7 +83,7 @@ export default function Home() {
     <section className={estilos.secao_competencias} id="competencias">
       <h2 className={estilos.titulo_secao}>Minhas Competências - Clique para abrir o Certificado</h2>
       <div className={estilos.card_container}>
-        <a href="https://www.devmedia.com.br/certificado/tecnologia/html/luiz-otavio-da-silva-castanheira" target="_blank" title="Clique e Veja-me!" className={estilos.link_cards}>
+        <a href="https://www.devmedia.com.br/certificado/tecnologia/levantamento-de-requisitos/luiz-otavio-da-silva-castanheira" target="_blank" title="Clique e Veja-me!" className={estilos.link_cards}>
           <Card 
             imagem = {img_levantamento}
             nome = {'Levantamento de Requisitos'}
@@ -104,7 +104,7 @@ export default function Home() {
             texto={'Certificado em CSS - Folhas de Estilo'}
           />
         </a>
-        <a href="https://www.devmedia.com.br/certificado/tecnologia/python/luiz-otavio-da-silva-castanheira" target="_blank" title="Clique e Veja-me!" className={estilos.link_cards}>
+        <a href="https://www.devmedia.com.br/certificado/tecnologia/algoritmo/luiz-otavio-da-silva-castanheira" target="_blank" title="Clique e Veja-me!" className={estilos.link_cards}>
         <Card
           imagem = {img_algoritmo}
           nome = {'Algoritimo'} 
@@ -129,7 +129,7 @@ export default function Home() {
         <Card
           imagem = {img_python}
           nome = {'Linguagem Python'} 
-          texto = {'Certificado em programação em linguagem Pythom.'}
+          texto = {'Certificado em programação em linguagem Python.'}
         />
         </a>
         <a href="https://www.devmedia.com.br/certificado/tecnologia/sql/luiz-otavio-da-silva-castanheira" target="_blank" title="Clique e Veja-me!" className={estilos.link_cards}>
@@ -139,7 +139,7 @@ export default function Home() {
           texto = {'Introdução à Linguagem SQL em Bancos de Dados.'}
         />
         </a>
-        <a href="https://www.devmedia.com.br/certificado/tecnologia/sql/luiz-otavio-da-silva-castanheira" target="_blank" title="Clique e Veja-me!" className={estilos.link_cards}>
+        <a href="https://www.devmedia.com.br/certificado/tecnologia/mysql/luiz-otavio-da-silva-castanheira" target="_blank" title="Clique e Veja-me!" className={estilos.link_cards}>
         <Card
           imagem = {img_mysql}
           nome = {'MySQL'} 
