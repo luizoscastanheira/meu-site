@@ -67,7 +67,7 @@
 
 /* Estilizando a seção principal*/
 .main_container{
-    margin-top: 30px;
+    margin-top: 50px;
     margin-bottom: 30px;
     display: flex;
     flex-direction: column;
@@ -92,6 +92,8 @@
 .img_secao{
     width: 60%;
     height: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 /* Estilizando a Seção Competências */
@@ -115,15 +117,27 @@
 }
 
 .titulo_secao{
+    margin-top: 20px;
     color: var(--text-color);
     text-align: center;
+    text-shadow: 2px 2px 4px var(--background-secundary-color);
+}
+
+.link_cards{
+    text-decoration: none;
+    color: var(--text-secundary-color);
+    text-align: center;
+}
+
+.card_container a:hover{
+    text-shadow: 2px 2px 4px var(--background-color);
 }
 
 /* Estilizando a Seção Sobre */
 
 .secao_sobre{
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 100px;
+    margin-bottom: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -140,5 +154,52 @@
     max-width: 1024px;
     padding: 10px;
     font-size: 20px;;
-    
+}
+
+/*
+    Criando a Responsividade da página principal
+*/
+
+/* Telas de até no máximo 425 pixels*/
+@media (max-width: 425px){
+/* Estilizando o Topo */
+
+.container_header{
+    width:100%;
+    height: 160px;
+}
+
+.container_topo{
+    width: 90%;
+    height:50%;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.container_topo h1{
+    font-size: 24px;
+    color:var(--text-secundary-color);
+    text-shadow: 2px 2px 4px var(--secundary-color);
+}
+
+.icons_topo{
+    font-size: 22px;
+    vertical-align: bottom;
+    color:var(--text-secundary-color);
+}
+
+.lista_menu{
+    font-size: 12px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/* Ajustando a Seção Main */
+.main_container h1 {
+    padding: 15px;
+    font-size: 30px;
+    text-align: center;
+}
 }

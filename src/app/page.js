@@ -17,6 +17,13 @@ import { PiFileHtml, PiFileCss, PiFileJs} from "react-icons/pi";
 import { FaNetworkWired } from "react-icons/fa";
 import { SiWindows95 } from "react-icons/si";
 import { FcLinux } from "react-icons/fc";
+import { FaGithub } from "react-icons/fa";
+import { CiLinkedin } from "react-icons/ci";
+import { FaGears } from "react-icons/fa6";
+import { FcContacts } from "react-icons/fc";
+import { FiUserCheck } from "react-icons/fi";
+import { GiSkills } from "react-icons/gi";
+
 
 // Importando imagens
 import ImgSecao from "../../public/computadorcopy.jpg";
@@ -24,6 +31,11 @@ import img_html5 from "../../public/html5.png";
 import img_css from "../../public/css.png";
 import img_js from "../../public/js.png";
 import img_react from "../../public/react.png";
+import img_levantamento from "../../public/levantamento.png";
+import img_python from "../../public/Python.png";
+import img_algoritmo from "../../public/alg.png";
+import img_sql from "../../public/SQL.png";
+import img_mysql from "../../public/MySQL.png";
 
 export default function Home() {
 
@@ -47,18 +59,17 @@ export default function Home() {
         </div>
         <nav className={estilos.nav_container}>
           <ul className={estilos.lista_menu}>
-            <li className={estilos.menu_item}><a href="#competencias" className={estilos.menu_link}>Competências</a></li>
-            <li className={estilos.menu_item}><a href="#projetos" className={estilos.menu_link}>Projetos</a></li>
-            <li className={estilos.menu_item}><a href="#sobre" className={estilos.menu_link}>Sobre Mim</a></li>
-            <li className={estilos.menu_item}><a href="https://github.com/luizoscastanheira" target="_blank" className={estilos.menu_link}>GitHub</a></li>
-            <li className={estilos.menu_item}><a href="https://www.linkedin.com/in/luiz-ot%C3%A1vio-da-silva-castanheira-19683696/" target="_blank" className={estilos.menu_link}>LinkedIn</a></li>
-            <li className={estilos.menu_item}><a href="#contato" className={estilos.menu_link}>Contato</a></li>
+            <li className={estilos.menu_item}><a href="#competencias" className={estilos.menu_link}><GiSkills /> Skills</a></li>
+            <li className={estilos.menu_item}><a href="#projetos" className={estilos.menu_link}><FaGears /> Projetos</a></li>
+            <li className={estilos.menu_item}><a href="#sobre" className={estilos.menu_link}><FiUserCheck /> Sobre Mim</a></li>
+            <li className={estilos.menu_item}><a href="https://github.com/luizoscastanheira" target="_blank" className={estilos.menu_link}><FaGithub /> GitHub</a></li>
+            <li className={estilos.menu_item}><a href="https://www.linkedin.com/in/luiz-ot%C3%A1vio-da-silva-castanheira-19683696/" target="_blank" className={estilos.menu_link}><CiLinkedin /> LinkedIn</a></li>
+            <li className={estilos.menu_item}><a href="#contato" className={estilos.menu_link}><FcContacts /> Contato</a></li>
           </ul>
         </nav>
         
     </header>
-   
-    
+       
     <main className={estilos.main_container}>
       <h1>Analista de Sistemas e Programador Front-End</h1>
       <p>Bem-vindo à minha página pessoal! Aqui vamos nos conhecer um pouco mais.</p>
@@ -70,30 +81,71 @@ export default function Home() {
     </main>
     
     <section className={estilos.secao_competencias} id="competencias">
-      <h2 className={estilos.titulo_secao}>Minhas Competências</h2>
+      <h2 className={estilos.titulo_secao}>Minhas Competências - Clique para abrir o Certificado</h2>
       <div className={estilos.card_container}>
-        
-        <Card 
-          imagem = {img_html5}
-          nome = {'HTML'}
-          texto = {'Certificado em HTML'}
-        />
+        <a href="https://www.devmedia.com.br/certificado/tecnologia/html/luiz-otavio-da-silva-castanheira" target="_blank" title="Clique e Veja-me!" className={estilos.link_cards}>
+          <Card 
+            imagem = {img_levantamento}
+            nome = {'Levantamento de Requisitos'}
+            texto = {'Certificado em Levantamento de Requisitos para desenvolvimento de aplicações.'}
+          />
+        </a>
+        <a href="https://www.devmedia.com.br/certificado/tecnologia/html/luiz-otavio-da-silva-castanheira" target="_blank" title="Clique e Veja-me!" className={estilos.link_cards}>
+          <Card 
+            imagem = {img_html5}
+            nome = {'HTML'}
+            texto = {'Certificado em HTML'}
+          />
+        </a>
+        <a href="https://www.devmedia.com.br/certificado/tecnologia/css/luiz-otavio-da-silva-castanheira" target="_blank" title="Clique e Veja-me!" className={estilos.link_cards}>
+          <Card
+            imagem = {img_css} 
+            nome={'CSS'}
+            texto={'Certificado em CSS - Folhas de Estilo'}
+          />
+        </a>
+        <a href="https://www.devmedia.com.br/certificado/tecnologia/python/luiz-otavio-da-silva-castanheira" target="_blank" title="Clique e Veja-me!" className={estilos.link_cards}>
         <Card
-          imagem = {img_css} 
-          nome={'CSS'}
-          texto={'Certificado em CSS - Folhas de Estilo'}
+          imagem = {img_algoritmo}
+          nome = {'Algoritimo'} 
+          texto = {'Certificado em desenvolvimento de algoritmos para programação.'}
         />
-        <Card
-          imagem = {img_js} 
-          nome={'JavaScript'}
-          texto={'Cerficado em JavaScript'}
-        />
+        </a> 
+        <a href="https://www.devmedia.com.br/certificado/tecnologia/javascript/luiz-otavio-da-silva-castanheira" target="_blank" title="Clique e Veja-me!" className={estilos.link_cards}>
+          <Card
+            imagem = {img_js} 
+            nome={'JavaScript'}
+            texto={'Cerficado em JavaScript'}
+          />
+        </a>
+        <a href="https://www.devmedia.com.br/certificado/tecnologia/react/luiz-otavio-da-silva-castanheira" target="_blank" title="Clique e Veja-me!" className={estilos.link_cards}>
         <Card
           imagem = {img_react}
           nome = {'React JS'} 
           texto = {'Certificado em React.js.'}
         />
-                      
+        </a>
+        <a href="https://www.devmedia.com.br/certificado/tecnologia/python/luiz-otavio-da-silva-castanheira" target="_blank" title="Clique e Veja-me!" className={estilos.link_cards}>
+        <Card
+          imagem = {img_python}
+          nome = {'Linguagem Python'} 
+          texto = {'Certificado em programação em linguagem Pythom.'}
+        />
+        </a>
+        <a href="https://www.devmedia.com.br/certificado/tecnologia/sql/luiz-otavio-da-silva-castanheira" target="_blank" title="Clique e Veja-me!" className={estilos.link_cards}>
+        <Card
+          imagem = {img_sql}
+          nome = {'Linguagem SQL'} 
+          texto = {'Introdução à Linguagem SQL em Bancos de Dados.'}
+        />
+        </a>
+        <a href="https://www.devmedia.com.br/certificado/tecnologia/sql/luiz-otavio-da-silva-castanheira" target="_blank" title="Clique e Veja-me!" className={estilos.link_cards}>
+        <Card
+          imagem = {img_mysql}
+          nome = {'MySQL'} 
+          texto = {'Sistema de Gerenciamento de Banco de Dados Relacional.'}
+        />
+        </a>         
       </div>
       
     </section>

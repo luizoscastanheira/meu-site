@@ -20,7 +20,7 @@
 }
 
 .card_container a:hover{
-    text-shadow: 2px 2px 4px black;
+    text-shadow: 2px 2px 4px var(--background-color);
 }
 
 .titulo_secao{
