@@ -14,13 +14,13 @@ import Projetos from "@/componentes/Projetos";
 // Importando icones
 import { DiReact} from "react-icons/di";
 import { PiFileHtml, PiFileCss, PiFileJs} from "react-icons/pi";
-import { FaNetworkWired } from "react-icons/fa";
+import { FaNetworkWired, FaGithub  } from "react-icons/fa";
 import { SiWindows95 } from "react-icons/si";
-import { FcLinux } from "react-icons/fc";
-import { FaGithub } from "react-icons/fa";
+import { FcLinux, FcContacts } from "react-icons/fc";
+//import { FaGithub } from "react-icons/fa";
 import { CiLinkedin } from "react-icons/ci";
 import { FaGears } from "react-icons/fa6";
-import { FcContacts } from "react-icons/fc";
+//import { FcContacts } from "react-icons/fc";
 import { FiUserCheck } from "react-icons/fi";
 import { GiSkills } from "react-icons/gi";
 
@@ -71,7 +71,7 @@ export default function Home() {
     </header>
        
     <main className={estilos.main_container}>
-      <h1>Analista de Sistemas e Programador Front-End</h1>
+      <h1>Estudante em Análise de Sistemas e Programação Front-End</h1>
       <p>Bem-vindo à minha página pessoal! Aqui vamos nos conhecer um pouco mais.</p>
       <p>
       "Não se apresse em julgar, nem os mais sábios podem ver o quadro todo." - Gandalf.
@@ -158,7 +158,7 @@ export default function Home() {
           e Linux.
         </p>
         <p>
-          Descidi aprender programação e junto fazer minha graduação em Análise e Desenvolvimento de
+          Decidi aprender programação e junto fazer minha graduação em Análise e Desenvolvimento de
           Sistemas, cursos aos quais tenho dedicado tempo desde o final de 2022.
         </p>
         <p>

@@ -9,6 +9,8 @@ import Clinica from "../../../public/siteClinica300px.png";
 import Agencia from "../../../public/siteAgencia300px.png";
 import Otica from "../../../public/siteOtica300px.png";
 import Receita from "../../../public/siteReceitaDeBolo300px.png";
+import Imobiliaria from "../../../public/siteImobiliaria300px.png";
+import Hospedagem from "../../../public/siteHospedagem300px.png";
 
 export default function Projetos(){
     return(
@@ -29,11 +31,25 @@ export default function Projetos(){
                     texto = {'Minha segunda página! Puro HTML e CSS só que um pouco "açucarada".'}
                 />
             </a>
+            <a href="https://testeimobiliariasantos.netlify.app/" target="_blank"  title="Clique e Veja-me!">
+                <Card 
+                    imagem = {Imobiliaria}
+                    nome = {'Imobiliária'}
+                    texto = {'Site de uma Imobiliaria. Feito para aprimorar a formatação e estruturação. '}
+                />
+            </a>
             <a href="https://testeclinicaportfolio.netlify.app/" target="_blank"  title="Clique e Veja-me!">
                 <Card 
                     imagem = {Clinica}
                     nome = {'Clínica Médica'}
-                    texto = {'Site de uma clínica médica. Feito para aprimorar o uso do CSS. '}
+                    texto = {'Site de uma clínica médica. Feito para aprimorar o uso do CSS e começar a trabalhar a responsividade. '}
+                />
+            </a>
+            <a href="https://testeclinicaportfolio.netlify.app/" target="_blank"  title="Clique e Veja-me!">
+                <Card 
+                    imagem = {Hospedagem}
+                    nome = {'Hospedagem de Sites'}
+                    texto = {'Site de uma empresa de Tecnologia especializada em hospedagem de sites.'}
                 />
             </a>
             <a href="https://testeagenciaportfolio.netlify.app/" target="_blank" title="Clique e Veja-me!">

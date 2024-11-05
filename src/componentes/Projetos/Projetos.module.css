@@ -3,7 +3,7 @@
     margin-bottom: 30px;
     width: 100%;
     height:auto;
-    background-color: var(--secundary-color);
+    background-image: linear-gradient(to left, var(--background-color), var(--background-secundary-color));
 }
 
 .card_container{
