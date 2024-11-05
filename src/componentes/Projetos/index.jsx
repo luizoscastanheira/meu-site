@@ -35,7 +35,7 @@ export default function Projetos(){
                 <Card 
                     imagem = {Imobiliaria}
                     nome = {'Imobiliária'}
-                    texto = {'Site de uma Imobiliaria. Feito para aprimorar a formatação e estruturação. '}
+                    texto = {'Site de uma Imobiliária. Feito para aprimorar a formatação e estruturação. '}
                 />
             </a>
             <a href="https://testeclinicaportfolio.netlify.app/" target="_blank"  title="Clique e Veja-me!">
@@ -45,7 +45,7 @@ export default function Projetos(){
                     texto = {'Site de uma clínica médica. Feito para aprimorar o uso do CSS e começar a trabalhar a responsividade. '}
                 />
             </a>
-            <a href="https://testeclinicaportfolio.netlify.app/" target="_blank"  title="Clique e Veja-me!">
+            <a href="https://testealfatech.netlify.app/" target="_blank"  title="Clique e Veja-me!">
                 <Card 
                     imagem = {Hospedagem}
                     nome = {'Hospedagem de Sites'}
