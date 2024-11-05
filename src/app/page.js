@@ -27,15 +27,15 @@ import { GiSkills } from "react-icons/gi";
 
 // Importando imagens
 import ImgSecao from "../../public/computadorcopy.jpg";
-import img_html5 from "../../public/html5.png";
-import img_css from "../../public/css.png";
-import img_js from "../../public/js.png";
-import img_react from "../../public/react.png";
+import img_html5 from "../../public/icons8-html-logo-144.png";
+import img_css from "../../public/icons8-css-logo-144.png";
+import img_js from "../../public/icons8-javascript-144.png";
+import img_react from "../../public/icons8-react-144.png";
 import img_levantamento from "../../public/levantamento.png";
-import img_python from "../../public/Python.png";
+import img_python from "../../public/icons8-python-144.png";
 import img_algoritmo from "../../public/alg.png";
 import img_sql from "../../public/SQL.png";
-import img_mysql from "../../public/MySQL.png";
+import img_mysql from "../../public/icons8-mysql-logo-144.png";
 
 export default function Home() {
 
