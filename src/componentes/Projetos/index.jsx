@@ -11,6 +11,7 @@ import Otica from "../../../public/siteOtica300px.png";
 import Receita from "../../../public/siteReceitaDeBolo300px.png";
 import Imobiliaria from "../../../public/siteImobiliaria300px.png";
 import Hospedagem from "../../../public/siteHospedagem300px.png";
+import PetBoutique from "../../../public/sitePetBoutique300px.png";
 
 export default function Projetos(){
     return(
@@ -38,6 +39,13 @@ export default function Projetos(){
                     texto = {'Site de uma Imobiliária. Feito para aprimorar a formatação e estruturação. '}
                 />
             </a>
+            <a href="https://testepetboutique.netlify.app/" target="_blank"  title="Clique e Veja-me!">
+                <Card 
+                    imagem = {PetBoutique}
+                    nome = {'Pet Boutique'}
+                    texto = {'Site de um Pet Shop. '}
+                />
+            </a>
             <a href="https://testeclinicaportfolio.netlify.app/" target="_blank"  title="Clique e Veja-me!">
                 <Card 
                     imagem = {Clinica}
@@ -63,7 +71,7 @@ export default function Projetos(){
                 <Card 
                     imagem = {Otica}
                     nome = {'Site da Ótica'}
-                    texto = {'Site de uma Ótica com uso de componentes.'}
+                    texto = {'Site de uma Ótica com uso de React e componentes.'}
                 />
             </a>
         </div>

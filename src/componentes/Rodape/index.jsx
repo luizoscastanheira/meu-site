@@ -10,10 +10,10 @@ export default function Rodape(){
         <footer id={estilos.footer_container}>
             <FcFaq id={estilos.icon_contato} />
             <div id={estilos.container_contato}>
-            <h4>Luiz Otávio da Silva Castanheira</h4>
+            <h4>Feito por: Luiz Otávio</h4>
             <div id="contato">
-                <p>E-mail: thelosc@proton.me</p>
-                <p>WhatsApp: 24 981839564</p>
+                <p>E-mail: <a href="mailto:thelos@proton.me">thelosc@proton.me</a></p>
+                <p>WhatsApp: <a href="https://wa.me/5524981839564" target="_blank">24 981839564</a></p>
             </div>
             </div>
         </footer>
