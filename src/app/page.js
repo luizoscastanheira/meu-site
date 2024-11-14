@@ -23,6 +23,7 @@ import { FaGears } from "react-icons/fa6";
 //import { FcContacts } from "react-icons/fc";
 import { FiUserCheck } from "react-icons/fi";
 import { GiSkills } from "react-icons/gi";
+import { MdOutlineContactPhone } from "react-icons/md";
 
 
 // Importando imagens
@@ -64,7 +65,7 @@ export default function Home() {
             <li className={estilos.menu_item}><a href="#sobre" className={estilos.menu_link}><FiUserCheck /> Sobre Mim</a></li>
             <li className={estilos.menu_item}><a href="https://github.com/luizoscastanheira" target="_blank" className={estilos.menu_link}><FaGithub /> GitHub</a></li>
             <li className={estilos.menu_item}><a href="https://www.linkedin.com/in/luiz-ot%C3%A1vio-da-silva-castanheira-19683696/" target="_blank" className={estilos.menu_link}><CiLinkedin /> LinkedIn</a></li>
-            <li className={estilos.menu_item}><a href="#contato" className={estilos.menu_link}><FcContacts /> Contato</a></li>
+            <li className={estilos.menu_item}><a href="#contato" className={estilos.menu_link}><MdOutlineContactPhone /> Contato</a></li>
           </ul>
         </nav>
         

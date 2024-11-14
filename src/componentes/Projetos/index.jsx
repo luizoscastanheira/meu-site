@@ -12,6 +12,7 @@ import Receita from "../../../public/siteReceitaDeBolo300px.png";
 import Imobiliaria from "../../../public/siteImobiliaria300px.png";
 import Hospedagem from "../../../public/siteHospedagem300px.png";
 import PetBoutique from "../../../public/sitePetBoutique300px.png";
+import Cafeteria from "../../../public/siteCafeteria300px.png";
 
 export default function Projetos(){
     return(
@@ -44,6 +45,13 @@ export default function Projetos(){
                     imagem = {PetBoutique}
                     nome = {'Pet Boutique'}
                     texto = {'Site de um Pet Shop. '}
+                />
+            </a>
+            <a href="https://testecafeteria.netlify.app/" target="_blank"  title="Clique e Veja-me!">
+                <Card 
+                    imagem = {Cafeteria}
+                    nome = {'Cafeteria Manhattan'}
+                    texto = {'Site de uma cafeteria. '}
                 />
             </a>
             <a href="https://testeclinicaportfolio.netlify.app/" target="_blank"  title="Clique e Veja-me!">
