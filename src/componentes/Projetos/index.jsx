@@ -13,6 +13,7 @@ import Imobiliaria from "../../../public/siteImobiliaria300px.png";
 import Hospedagem from "../../../public/siteHospedagem300px.png";
 import PetBoutique from "../../../public/sitePetBoutique300px.png";
 import Cafeteria from "../../../public/siteCafeteria300px.png";
+import Pousada from "../../../public/sitePousada300px.png";
 
 export default function Projetos(){
     return(
@@ -36,7 +37,7 @@ export default function Projetos(){
             <a href="https://testeimobiliariasantos.netlify.app/" target="_blank"  title="Clique e Veja-me!">
                 <Card 
                     imagem = {Imobiliaria}
-                    nome = {'Imobiliária'}
+                    nome = {'Imobiliária Santos'}
                     texto = {'Site de uma Imobiliária. Feito para aprimorar a formatação e estruturação. '}
                 />
             </a>
@@ -54,17 +55,24 @@ export default function Projetos(){
                     texto = {'Site de uma cafeteria. '}
                 />
             </a>
+            <a href="https://testepousada.netlify.app/" target="_blank"  title="Clique e Veja-me!">
+                <Card 
+                    imagem = {Pousada}
+                    nome = {'Pousada Secreta'}
+                    texto = {'Site de uma Pousada. '}
+                />
+            </a>
             <a href="https://testeclinicaportfolio.netlify.app/" target="_blank"  title="Clique e Veja-me!">
                 <Card 
                     imagem = {Clinica}
-                    nome = {'Clínica Médica'}
+                    nome = {'Clínica CM Life'}
                     texto = {'Site de uma clínica médica. Feito para aprimorar o uso do CSS e começar a trabalhar a responsividade. '}
                 />
             </a>
             <a href="https://testealfatech.netlify.app/" target="_blank"  title="Clique e Veja-me!">
                 <Card 
                     imagem = {Hospedagem}
-                    nome = {'Hospedagem de Sites'}
+                    nome = {'AlfaTech'}
                     texto = {'Site de uma empresa de Tecnologia especializada em hospedagem de sites.'}
                 />
             </a>
@@ -78,7 +86,7 @@ export default function Projetos(){
             <a href="https://otica-three.vercel.app/" target="_blank" title="Clique e Veja-me!">
                 <Card 
                     imagem = {Otica}
-                    nome = {'Site da Ótica'}
+                    nome = {'Óticas Vida'}
                     texto = {'Site de uma Ótica com uso de React e componentes.'}
                 />
             </a>
