@@ -133,6 +133,8 @@ export default function Home() {
           texto = {'Certificado em programação em linguagem Python.'}
         />
         </a>
+
+        {/*
         <a href="https://www.devmedia.com.br/certificado/tecnologia/sql/luiz-otavio-da-silva-castanheira" target="_blank" title="Clique e Veja-me!" className={estilos.link_cards}>
         <Card
           imagem = {img_sql}
@@ -140,6 +142,7 @@ export default function Home() {
           texto = {'Introdução à Linguagem SQL em Bancos de Dados.'}
         />
         </a>
+        */}
         <a href="https://www.devmedia.com.br/certificado/tecnologia/mysql/luiz-otavio-da-silva-castanheira" target="_blank" title="Clique e Veja-me!" className={estilos.link_cards}>
         <Card
           imagem = {img_mysql}
