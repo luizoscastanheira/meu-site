@@ -1,9 +1,6 @@
 import estilos from "./Projetos.module.css";
 import Link from "next/link";
 
-// Importando a Base de Dados
-import dados from "@/data/dataProjetos.js";
-
 // Importando Componente
 import Card from "@/componentes/Card";
 // Importando Imagens
@@ -23,9 +20,6 @@ export default function Projetos(){
         <section className={estilos.secao_projetos} id="projetos">
             <h2 className={estilos.titulo_secao}>Alguns dos meus projetos - ainda em construção!!!</h2>
         <div className={estilos.card_container}>
-            {
-                // Função de Dados
-            }
             <a href="https://testereceitadebolo.netlify.app/" target="_blank"  title="Clique e Veja-me!">
                 <Card 
                     imagem = {Receita}
