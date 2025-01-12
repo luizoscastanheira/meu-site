@@ -37,6 +37,8 @@ import img_python from "../../public/icons8-python-144.png";
 import img_algoritmo from "../../public/alg.png";
 import img_sql from "../../public/SQL.png";
 import img_mysql from "../../public/icons8-mysql-logo-144.png";
+import img_Node from "../../public/nodejs.png";
+import img_REST from "../../public/rest144.png";
 
 export default function Home() {
 
@@ -126,6 +128,23 @@ export default function Home() {
           texto = {'Certificado em React.js.'}
         />
         </a>
+              
+        <a href="https://www.devmedia.com.br/certificado/tecnologia/rest/luiz-otavio-da-silva-castanheira" target="_blank" title="Clique e Veja-me!" className={estilos.link_cards}>
+        <Card
+          imagem = {img_REST}
+          nome = {'REST'} 
+          texto = {'Certificado em REST na contrução de API.'}
+        />
+        </a>
+
+        <a href="https://www.devmedia.com.br/certificado/tecnologia/node-js/luiz-otavio-da-silva-castanheira" target="_blank" title="Clique e Veja-me!" className={estilos.link_cards}>
+        <Card
+          imagem = {img_Node}
+          nome = {'Node JS'} 
+          texto = {'Certificado em Node.JS para trabalho em back-end.'}
+        />
+        </a>
+
         <a href="https://www.devmedia.com.br/certificado/tecnologia/python/luiz-otavio-da-silva-castanheira" target="_blank" title="Clique e Veja-me!" className={estilos.link_cards}>
         <Card
           imagem = {img_python}
