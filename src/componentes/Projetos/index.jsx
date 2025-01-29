@@ -17,6 +17,7 @@ import Hospedagem from "../../../public/siteHospedagem300px.png";
 import PetBoutique from "../../../public/sitePetBoutique300px.png";
 import Cafeteria from "../../../public/siteCafeteria300px.png";
 import Pousada from "../../../public/sitePousada300px.png";
+import Cardapio from "../../../public/siteCardapio300px.png";
 
 export default function Projetos(){
     return(
@@ -94,6 +95,13 @@ export default function Projetos(){
                     imagem = {Otica}
                     nome = {'Óticas Vida'}
                     texto = {'Site de uma Ótica com uso de React e componentes.'}
+                />
+            </a>
+            <a href="https://projeto-cardapio-one-mocha.vercel.app/" target="_blank" title="Clique e Veja-me!">
+                <Card 
+                    imagem = {Cardapio}
+                    nome = {'Restaurante'}
+                    texto = {'Site com o caradápio de um restaurante, com uso de React e componentes.'}
                 />
             </a>
         </div>
