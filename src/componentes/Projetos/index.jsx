@@ -18,11 +18,27 @@ import PetBoutique from "../../../public/sitePetBoutique300px.png";
 import Cafeteria from "../../../public/siteCafeteria300px.png";
 import Pousada from "../../../public/sitePousada300px.png";
 import Cardapio from "../../../public/siteCardapio300px.png";
+import Denise from "../../../public/siteDenise300px.png";
 
 export default function Projetos(){
     return(
         <section className={estilos.secao_projetos} id="projetos">
-            <h2 className={estilos.titulo_secao}>Alguns dos meus projetos - ainda em construção!!!</h2>
+
+        <h2 className={estilos.titulo_secao}>Projetos de Clientes</h2>
+        <div className={estilos.card_container}>
+                
+                <div>
+                    <a href="https://espacodenisewerneck.vercel.app/" target="_blank" title="Clique e Veja-me!">
+                        <Card 
+                            imagem = {Denise}
+                            nome = {'Denise Werneck'}
+                            texto = {'Site oficial do centro de Estética Denise Werneck, desenvolvido em React e componentes.'}
+                        />
+                    </a>
+                </div>
+        </div>
+
+        <h2 className={estilos.titulo_secao}>Projetos Acadêmicos</h2>
         <div className={estilos.card_container}>
             {
                 // Função de Dados
@@ -104,7 +120,9 @@ export default function Projetos(){
                     texto = {'Site com o caradápio de um restaurante, com uso de React e componentes.'}
                 />
             </a>
+            
         </div>
+
         </section>
     );
 }
