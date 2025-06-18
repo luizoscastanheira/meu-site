@@ -82,6 +82,26 @@ export default function Home() {
       <Image src={ImgSecao} alt="Imagem da Sec" className={estilos.img_secao}/>
       
     </main>
+
+    <section id="sobre" className={estilos.secao_sobre}>
+        <h2>Aqui estou eu!</h2>
+        <p>
+          Não é fácil falar de si mesmo sem parecer "amostradinho", mas posso dizer
+          que em boa parte da minha vida profissional fui autodidata, especialmente ao trabalhar com administração de sistemas operacionais e redes Windows 
+          e Linux bem como no suporte técnico.
+        </p>
+        <p>
+          Sou graduado em Análise e Desenvolvimento de Sistemas pela Universidade de Vassouras desde Abril de 2025, um sonho antigo realizado e  
+          atualmente estudo para me tornar um desenvolvedor web full stack, algo que também me atrai, programar, ha bastante tempo e só agora pude dedicar-me a isso.
+        </p>
+        <p>
+          Posso me apresentar como alguem dedicado, que gosta do que faz e que está em constante
+          aprendizado na busca de solucionar problemas.
+        </p>
+      
+    </section>
+
+    <Projetos />
     
     <section className={estilos.secao_competencias} id="competencias">
       <h2 className={estilos.titulo_secao}>Minhas Competências - Clique para abrir o Certificado</h2>
@@ -173,25 +193,9 @@ export default function Home() {
       
     </section>
     
-    <section id="sobre" className={estilos.secao_sobre}>
-        <h2>Aqui estou eu!</h2>
-        <p>
-          Não é fácil falar de si mesmo sem parecer "amostradinho", mas posso dizer
-          que em boa parte da minha vida profissional fui autodidata, especialmente ao trabalhar com sistemas operacionais Windows 
-          e Linux.
-        </p>
-        <p>
-          Decidi aprender programação e junto fazer minha graduação em Análise e Desenvolvimento de
-          Sistemas, cursos aos quais tenho dedicado tempo desde o final de 2022.
-        </p>
-        <p>
-          Posso me apresentar como alguem dedicado, que gosta do que faz e que está em constante
-          aprendizado na busca de solucionar problemas.
-        </p>
-      
-    </section>
+    
 
-    <Projetos />
+    
     <Rodape />
   </>
   
